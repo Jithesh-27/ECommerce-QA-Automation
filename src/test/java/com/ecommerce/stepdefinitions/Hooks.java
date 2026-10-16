@@ -28,6 +28,7 @@ public class Hooks {
 
             WebDriverManager.chromedriver().setup();
             ChromeOptions options = new ChromeOptions();
+            options.setBinary("C:\\Users\\Jithesh\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe");
             options.setPageLoadStrategy(PageLoadStrategy.EAGER);
             driver = new ChromeDriver(options);
 
